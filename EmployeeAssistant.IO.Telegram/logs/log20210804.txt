@@ -1,0 +1,174 @@
+2021-08-04 18:07:35.110 +05:00 [INF] Starting web host..
+2021-08-04 18:07:35.977 +05:00 [DBG] Hosting starting
+2021-08-04 18:07:36.535 +05:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 34297F096C16E1CA2FE9B9B16742841A92D5E9A4)
+2021-08-04 18:07:36.586 +05:00 [INF] Now listening on: https://localhost:5001
+2021-08-04 18:07:36.586 +05:00 [INF] Now listening on: http://localhost:5000
+2021-08-04 18:07:36.586 +05:00 [DBG] Loaded hosting startup assembly EmployeeAssistant.IO.Telegram
+2021-08-04 18:07:36.587 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-04 18:07:36.587 +05:00 [INF] Hosting environment: Development
+2021-08-04 18:07:36.587 +05:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.IO.Telegram
+2021-08-04 18:07:36.588 +05:00 [DBG] Hosting started
+2021-08-04 18:07:36.710 +05:00 [DBG] Connection id "0HMAN93AARI65" received FIN.
+2021-08-04 18:07:36.748 +05:00 [DBG] Connection id "0HMAN93AARI65" accepted.
+2021-08-04 18:07:36.756 +05:00 [DBG] Connection id "0HMAN93AARI65" started.
+2021-08-04 18:07:36.915 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-08-04 18:07:37.122 +05:00 [DBG] Connection id "0HMAN93AARI65" stopped.
+2021-08-04 18:07:37.135 +05:00 [DBG] Connection id "0HMAN93AARI65" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-08-04 18:07:38.153 +05:00 [DBG] Connection id "0HMAN93AARI66" accepted.
+2021-08-04 18:07:38.154 +05:00 [DBG] Connection id "0HMAN93AARI66" started.
+2021-08-04 18:07:38.300 +05:00 [DBG] Connection "0HMAN93AARI66" established using the following protocol: "Tls12"
+2021-08-04 18:07:40.649 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-08-04 18:07:40.656 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-04 18:07:41.163 +05:00 [DBG] Connection id "0HMAN93AARI66" completed keep alive response.
+2021-08-04 18:07:41.194 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 540.0719ms
+2021-08-04 18:07:43.263 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-08-04 18:07:43.539 +05:00 [DBG] Connection id "0HMAN93AARI66" completed keep alive response.
+2021-08-04 18:07:43.540 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 277.6994ms
+2021-08-04 18:08:38.167 +05:00 [DBG] Connection id "0HMAN93AARI66" received FIN.
+2021-08-04 18:08:38.208 +05:00 [DBG] Connection id "0HMAN93AARI66" sending FIN because: "The client closed the connection."
+2021-08-04 18:08:38.234 +05:00 [DBG] Connection id "0HMAN93AARI66" disconnecting.
+2021-08-04 18:08:38.251 +05:00 [DBG] Connection id "0HMAN93AARI66" stopped.
+2021-08-04 18:08:39.296 +05:00 [DBG] Connection id "0HMAN93AARI67" accepted.
+2021-08-04 18:08:39.296 +05:00 [DBG] Connection id "0HMAN93AARI67" started.
+2021-08-04 18:08:39.427 +05:00 [DBG] Connection "0HMAN93AARI67" established using the following protocol: "Tls12"
+2021-08-04 18:08:39.436 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/getBotId - -
+2021-08-04 18:08:39.473 +05:00 [DBG] The request path  does not match the path filter
+2021-08-04 18:08:39.671 +05:00 [DBG] 1 candidate(s) found for the request path '/getBotId'
+2021-08-04 18:08:39.681 +05:00 [DBG] Endpoint 'EmployeeAssistant.IO.Telegram.Controllers.TelegramController.GetBotId (EmployeeAssistant.IO.Telegram)' with route pattern 'getBotId' is valid for the request path '/getBotId'
+2021-08-04 18:08:39.684 +05:00 [DBG] Request matched endpoint 'EmployeeAssistant.IO.Telegram.Controllers.TelegramController.GetBotId (EmployeeAssistant.IO.Telegram)'
+2021-08-04 18:08:39.699 +05:00 [INF] Executing endpoint 'EmployeeAssistant.IO.Telegram.Controllers.TelegramController.GetBotId (EmployeeAssistant.IO.Telegram)'
+2021-08-04 18:08:39.744 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-08-04 18:08:39.898 +05:00 [INF] Route matched with {action = "GetBotId", controller = "Telegram"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int64] GetBotId() on controller EmployeeAssistant.IO.Telegram.Controllers.TelegramController (EmployeeAssistant.IO.Telegram).
+2021-08-04 18:08:39.901 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-04 18:08:39.902 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-04 18:08:39.904 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-04 18:08:39.904 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-04 18:08:39.904 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-04 18:08:39.907 +05:00 [DBG] Executing controller factory for controller EmployeeAssistant.IO.Telegram.Controllers.TelegramController (EmployeeAssistant.IO.Telegram)
+2021-08-04 18:08:39.986 +05:00 [INF] Telegram bot started to receive messages
+2021-08-04 18:08:40.000 +05:00 [DBG] Executed controller factory for controller EmployeeAssistant.IO.Telegram.Controllers.TelegramController (EmployeeAssistant.IO.Telegram)
+2021-08-04 18:08:40.833 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-08-04 18:08:40.847 +05:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2021-08-04 18:08:40.848 +05:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2021-08-04 18:08:40.849 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-04 18:08:40.849 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-04 18:08:40.854 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-04 18:08:40.855 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Int64'.
+2021-08-04 18:08:40.913 +05:00 [INF] Executed action EmployeeAssistant.IO.Telegram.Controllers.TelegramController.GetBotId (EmployeeAssistant.IO.Telegram) in 984.5008ms
+2021-08-04 18:08:40.916 +05:00 [INF] Executed endpoint 'EmployeeAssistant.IO.Telegram.Controllers.TelegramController.GetBotId (EmployeeAssistant.IO.Telegram)'
+2021-08-04 18:08:40.948 +05:00 [INF] HTTP GET /getBotId responded 200 in 1439.6600 ms
+2021-08-04 18:08:40.976 +05:00 [DBG] Connection id "0HMAN93AARI67" completed keep alive response.
+2021-08-04 18:08:40.984 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/getBotId - - - 200 - application/json;+charset=utf-8 1540.9041ms
+2021-08-04 18:09:37.419 +05:00 [INF] Starting web host..
+2021-08-04 18:09:38.347 +05:00 [DBG] Hosting starting
+2021-08-04 18:09:38.959 +05:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 34297F096C16E1CA2FE9B9B16742841A92D5E9A4)
+2021-08-04 18:09:39.023 +05:00 [INF] Now listening on: https://localhost:5001
+2021-08-04 18:09:39.023 +05:00 [INF] Now listening on: http://localhost:5000
+2021-08-04 18:09:39.023 +05:00 [DBG] Loaded hosting startup assembly EmployeeAssistant.IO.Telegram
+2021-08-04 18:09:39.024 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-04 18:09:39.024 +05:00 [INF] Hosting environment: Development
+2021-08-04 18:09:39.024 +05:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.IO.Telegram
+2021-08-04 18:09:39.026 +05:00 [DBG] Hosting started
+2021-08-04 18:09:39.355 +05:00 [DBG] Connection id "0HMAN94ESG03B" received FIN.
+2021-08-04 18:09:39.377 +05:00 [DBG] Connection id "0HMAN94ESG03B" accepted.
+2021-08-04 18:09:39.379 +05:00 [DBG] Connection id "0HMAN94ESG03B" started.
+2021-08-04 18:09:39.412 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-08-04 18:09:39.750 +05:00 [DBG] Connection id "0HMAN94ESG03B" stopped.
+2021-08-04 18:09:39.762 +05:00 [DBG] Connection id "0HMAN94ESG03B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-08-04 18:09:40.332 +05:00 [DBG] Connection id "0HMAN94ESG03C" accepted.
+2021-08-04 18:09:40.332 +05:00 [DBG] Connection id "0HMAN94ESG03C" started.
+2021-08-04 18:09:40.571 +05:00 [DBG] Connection "0HMAN94ESG03C" established using the following protocol: "Tls12"
+2021-08-04 18:09:40.898 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-08-04 18:09:40.911 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-04 18:09:41.152 +05:00 [DBG] Connection id "0HMAN94ESG03C" completed keep alive response.
+2021-08-04 18:09:41.156 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 260.8696ms
+2021-08-04 18:09:41.867 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-08-04 18:09:42.140 +05:00 [DBG] Connection id "0HMAN94ESG03C" completed keep alive response.
+2021-08-04 18:09:42.142 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 274.7946ms
+2021-08-04 18:10:09.623 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/getBotId - -
+2021-08-04 18:10:09.647 +05:00 [DBG] The request path  does not match the path filter
+2021-08-04 18:10:09.749 +05:00 [DBG] 1 candidate(s) found for the request path '/getBotId'
+2021-08-04 18:10:09.754 +05:00 [DBG] Endpoint 'EmployeeAssistant.IO.Telegram.Controllers.TelegramController.GetBotId (EmployeeAssistant.IO.Telegram)' with route pattern 'getBotId' is valid for the request path '/getBotId'
+2021-08-04 18:10:09.755 +05:00 [DBG] Request matched endpoint 'EmployeeAssistant.IO.Telegram.Controllers.TelegramController.GetBotId (EmployeeAssistant.IO.Telegram)'
+2021-08-04 18:10:09.770 +05:00 [INF] Executing endpoint 'EmployeeAssistant.IO.Telegram.Controllers.TelegramController.GetBotId (EmployeeAssistant.IO.Telegram)'
+2021-08-04 18:10:09.803 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-08-04 18:10:09.888 +05:00 [INF] Route matched with {action = "GetBotId", controller = "Telegram"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int64] GetBotId() on controller EmployeeAssistant.IO.Telegram.Controllers.TelegramController (EmployeeAssistant.IO.Telegram).
+2021-08-04 18:10:09.891 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-04 18:10:09.892 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-04 18:10:09.892 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-04 18:10:09.893 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-04 18:10:09.893 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-04 18:10:09.895 +05:00 [DBG] Executing controller factory for controller EmployeeAssistant.IO.Telegram.Controllers.TelegramController (EmployeeAssistant.IO.Telegram)
+2021-08-04 18:10:09.945 +05:00 [INF] Telegram bot started to receive messages
+2021-08-04 18:10:09.952 +05:00 [DBG] Executed controller factory for controller EmployeeAssistant.IO.Telegram.Controllers.TelegramController (EmployeeAssistant.IO.Telegram)
+2021-08-04 18:10:10.676 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2021-08-04 18:10:10.684 +05:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2021-08-04 18:10:10.685 +05:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2021-08-04 18:10:10.686 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-08-04 18:10:10.686 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2021-08-04 18:10:10.688 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-08-04 18:10:10.689 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Int64'.
+2021-08-04 18:10:10.733 +05:00 [INF] Executed action EmployeeAssistant.IO.Telegram.Controllers.TelegramController.GetBotId (EmployeeAssistant.IO.Telegram) in 820.8266ms
+2021-08-04 18:10:10.737 +05:00 [INF] Executed endpoint 'EmployeeAssistant.IO.Telegram.Controllers.TelegramController.GetBotId (EmployeeAssistant.IO.Telegram)'
+2021-08-04 18:10:10.752 +05:00 [INF] HTTP GET /getBotId responded 200 in 1088.2461 ms
+2021-08-04 18:10:10.766 +05:00 [DBG] Connection id "0HMAN94ESG03C" completed keep alive response.
+2021-08-04 18:10:10.766 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/getBotId - - - 200 - application/json;+charset=utf-8 1143.3754ms
+2021-08-04 18:12:01.093 +05:00 [INF] Starting web host..
+2021-08-04 18:12:02.305 +05:00 [DBG] Hosting starting
+2021-08-04 18:12:02.765 +05:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 34297F096C16E1CA2FE9B9B16742841A92D5E9A4)
+2021-08-04 18:12:02.827 +05:00 [INF] Now listening on: https://localhost:5001
+2021-08-04 18:12:02.827 +05:00 [INF] Now listening on: http://localhost:5000
+2021-08-04 18:12:02.827 +05:00 [DBG] Loaded hosting startup assembly EmployeeAssistant.IO.Telegram
+2021-08-04 18:12:02.828 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-04 18:12:02.829 +05:00 [INF] Hosting environment: Development
+2021-08-04 18:12:02.829 +05:00 [INF] Content root path: /Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.IO.Telegram
+2021-08-04 18:12:02.829 +05:00 [DBG] Hosting started
+2021-08-04 18:12:03.252 +05:00 [DBG] Connection id "0HMAN95POAJET" received FIN.
+2021-08-04 18:12:03.500 +05:00 [DBG] Connection id "0HMAN95POAJET" accepted.
+2021-08-04 18:12:03.503 +05:00 [DBG] Connection id "0HMAN95POAJET" started.
+2021-08-04 18:12:03.602 +05:00 [DBG] Connection id "0HMAN95POAJEU" accepted.
+2021-08-04 18:12:03.603 +05:00 [DBG] Connection id "0HMAN95POAJEU" started.
+2021-08-04 18:12:03.624 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-08-04 18:12:03.971 +05:00 [DBG] Connection id "0HMAN95POAJET" stopped.
+2021-08-04 18:12:03.983 +05:00 [DBG] Connection id "0HMAN95POAJET" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-08-04 18:12:04.077 +05:00 [DBG] Connection "0HMAN95POAJEU" established using the following protocol: "Tls12"
+2021-08-04 18:12:04.299 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html - -
+2021-08-04 18:12:04.302 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-08-04 18:12:04.611 +05:00 [DBG] Connection id "0HMAN95POAJEU" completed keep alive response.
+2021-08-04 18:12:04.614 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 322.4299ms
+2021-08-04 18:12:05.277 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-08-04 18:12:05.669 +05:00 [DBG] Connection id "0HMAN95POAJEU" completed keep alive response.
+2021-08-04 18:12:05.670 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 392.6840ms
+2021-08-04 18:12:10.117 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/startBot - -
+2021-08-04 18:12:10.126 +05:00 [DBG] The request path  does not match the path filter
+2021-08-04 18:12:10.227 +05:00 [DBG] 1 candidate(s) found for the request path '/startBot'
+2021-08-04 18:12:10.233 +05:00 [DBG] Endpoint 'EmployeeAssistant.IO.Telegram.Controllers.TelegramController.StartTelegramBot (EmployeeAssistant.IO.Telegram)' with route pattern 'startBot' is valid for the request path '/startBot'
+2021-08-04 18:12:10.234 +05:00 [DBG] Request matched endpoint 'EmployeeAssistant.IO.Telegram.Controllers.TelegramController.StartTelegramBot (EmployeeAssistant.IO.Telegram)'
+2021-08-04 18:12:10.242 +05:00 [INF] Executing endpoint 'EmployeeAssistant.IO.Telegram.Controllers.TelegramController.StartTelegramBot (EmployeeAssistant.IO.Telegram)'
+2021-08-04 18:12:10.276 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2021-08-04 18:12:10.318 +05:00 [INF] Route matched with {action = "StartTelegramBot", controller = "Telegram"}. Executing controller action with signature Void StartTelegramBot() on controller EmployeeAssistant.IO.Telegram.Controllers.TelegramController (EmployeeAssistant.IO.Telegram).
+2021-08-04 18:12:10.319 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2021-08-04 18:12:10.320 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2021-08-04 18:12:10.320 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2021-08-04 18:12:10.320 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2021-08-04 18:12:10.321 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2021-08-04 18:12:10.322 +05:00 [DBG] Executing controller factory for controller EmployeeAssistant.IO.Telegram.Controllers.TelegramController (EmployeeAssistant.IO.Telegram)
+2021-08-04 18:12:10.354 +05:00 [DBG] Executed controller factory for controller EmployeeAssistant.IO.Telegram.Controllers.TelegramController (EmployeeAssistant.IO.Telegram)
+2021-08-04 18:12:10.360 +05:00 [INF] Telegram bot started to receive messages
+2021-08-04 18:12:10.375 +05:00 [INF] Executed action EmployeeAssistant.IO.Telegram.Controllers.TelegramController.StartTelegramBot (EmployeeAssistant.IO.Telegram) in 44.1694ms
+2021-08-04 18:12:10.376 +05:00 [INF] Executed endpoint 'EmployeeAssistant.IO.Telegram.Controllers.TelegramController.StartTelegramBot (EmployeeAssistant.IO.Telegram)'
+2021-08-04 18:12:10.384 +05:00 [INF] HTTP GET /startBot responded 200 in 245.2837 ms
+2021-08-04 18:12:10.385 +05:00 [DBG] Connection id "0HMAN95POAJEU" completed keep alive response.
+2021-08-04 18:12:10.385 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/startBot - - - 200 0 - 268.2197ms
