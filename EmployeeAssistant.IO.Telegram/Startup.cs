@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EmployeeAssistant.IO.Telegram.Handlers;
+using EmployeeAssistant.IO.Telegram.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +28,9 @@ namespace EmployeeAssistant.IO.Telegram
         
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<ITelegramService, TelegramService>();
+            services.AddSingleton<IQuestionHandler, BaseQuestionHandler>();
+            
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
