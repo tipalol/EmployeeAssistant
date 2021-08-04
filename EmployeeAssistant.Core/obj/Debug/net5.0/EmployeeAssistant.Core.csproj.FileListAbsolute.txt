@@ -1,0 +1,12 @@
+/Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.Core/bin/Debug/net5.0/EmployeeAssistant.Core.deps.json
+/Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.Core/bin/Debug/net5.0/EmployeeAssistant.Core.dll
+/Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.Core/bin/Debug/net5.0/ref/EmployeeAssistant.Core.dll
+/Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.Core/bin/Debug/net5.0/EmployeeAssistant.Core.pdb
+/Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.Core/obj/Debug/net5.0/EmployeeAssistant.Core.csproj.AssemblyReference.cache
+/Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.Core/obj/Debug/net5.0/EmployeeAssistant.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.Core/obj/Debug/net5.0/EmployeeAssistant.Core.AssemblyInfoInputs.cache
+/Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.Core/obj/Debug/net5.0/EmployeeAssistant.Core.AssemblyInfo.cs
+/Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.Core/obj/Debug/net5.0/EmployeeAssistant.Core.csproj.CoreCompileInputs.cache
+/Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.Core/obj/Debug/net5.0/EmployeeAssistant.Core.dll
+/Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.Core/obj/Debug/net5.0/ref/EmployeeAssistant.Core.dll
+/Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.Core/obj/Debug/net5.0/EmployeeAssistant.Core.pdb

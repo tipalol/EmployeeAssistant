@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "ez81UpMKbc4Ono+eflzaiXOGrIUDCf2nSqCHP4Hz/fTKF0ajkeE4jdfhQf3x3D+ZfwG8dZch3PfGr62K41b/OQ==",
+  "success": true,
+  "projectFilePath": "/Users/sorokindmitrij/RiderProjects/EmployeeAssistant/EmployeeAssistant.Web/EmployeeAssistant.Web.csproj",
+  "expectedPackageFiles": [
+    "/Users/sorokindmitrij/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/mongodb.bson/2.13.0/mongodb.bson.2.13.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/mongodb.driver/2.13.0/mongodb.driver.2.13.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/mongodb.driver.core/2.13.0/mongodb.driver.core.2.13.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/mongodb.libmongocrypt/1.2.1/mongodb.libmongocrypt.1.2.1.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/sharpcompress/0.23.0/sharpcompress.0.23.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/Users/sorokindmitrij/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

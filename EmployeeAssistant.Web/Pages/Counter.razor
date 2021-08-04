@@ -1,0 +1,21 @@
+﻿@page "/counter"
+@using EmployeeAssistant.Infrastructure.Repositories
+@using EmployeeAssistant.Infrastructure.Services
+@inject IUserRepository UserRepository;
+@inject IUserRegisterService RegisterService;
+
+<h1>Debug Panel</h1>
+
+<button class="btn btn-primary" @onclick="AddUser">Add Random User</button>
+<button class="btn btn-primary" @onclick="DeleteAllUsers">Delete All Users</button>
+
+@code {
+    private async void AddUser()
+    {
+        await RegisterService.Register("DmYuSorokin@beeline.ru", "qwerty123", "Сорокин Дмитрий Юрьевич");
+    }
+    private async void DeleteAllUsers()
+    {
+        await UserRepository.Clear();
+    }
+}

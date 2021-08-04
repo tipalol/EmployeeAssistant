@@ -1,0 +1,50 @@
+﻿@page "/fetchdata"
+
+@using EmployeeAssistant.Infrastructure.Repositories
+@using EmployeeAssistant.Core
+@inject IUserRepository UserRepository
+
+<h1>Users</h1>
+
+<p>The list of all users registered in service</p>
+
+@if (_users == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Email</th>
+            <th>Name</th>
+            <th>Password</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var user in _users)
+                {
+                    <tr>
+                        <td>@user.Email.ToString()</td>
+                        <td>@user.Name</td>
+                        <td>@user.Password.GetRawValue()</td>
+                    </tr>
+                }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<User> _users;
+    
+    protected override Task OnInitializedAsync()
+    {
+        _users = UserRepository.GetUsers();
+        
+        return Task.CompletedTask;
+    }
+
+}

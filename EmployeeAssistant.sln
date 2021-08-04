@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeAssistant.Core", "EmployeeAssistant.Core\EmployeeAssistant.Core.csproj", "{AF10A475-3D07-4A28-B070-B0AEE38E74C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeAssistant.Infrastructure", "EmployeeAssistant.Infrastructure\EmployeeAssistant.Infrastructure.csproj", "{937F5F59-BE97-4AA7-AB89-18095E680676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeAssistant.Web", "EmployeeAssistant.Web\EmployeeAssistant.Web.csproj", "{15D0EB95-49BF-4A03-9ECA-10CD9BB7A753}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF10A475-3D07-4A28-B070-B0AEE38E74C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF10A475-3D07-4A28-B070-B0AEE38E74C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF10A475-3D07-4A28-B070-B0AEE38E74C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF10A475-3D07-4A28-B070-B0AEE38E74C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937F5F59-BE97-4AA7-AB89-18095E680676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937F5F59-BE97-4AA7-AB89-18095E680676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937F5F59-BE97-4AA7-AB89-18095E680676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937F5F59-BE97-4AA7-AB89-18095E680676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D0EB95-49BF-4A03-9ECA-10CD9BB7A753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D0EB95-49BF-4A03-9ECA-10CD9BB7A753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D0EB95-49BF-4A03-9ECA-10CD9BB7A753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D0EB95-49BF-4A03-9ECA-10CD9BB7A753}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
